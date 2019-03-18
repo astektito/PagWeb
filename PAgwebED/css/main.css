@@ -1,7 +1,9 @@
 .navbar{
     box-shadow: 2px 2px 5px #000;
-    opacity: 1;
+    opacity: 0.98;
+   
 }
+
 .navbar-nav nav-item .nav-link{
     color: white;
 }
@@ -11,6 +13,7 @@
     background-size: cover;
     min-height: 600px;
 }
+
 .background-overlay{
     background: rgba(48, 51, 107,0.7);
     min-height: 600px;
@@ -40,3 +43,104 @@
 .zoom:hover{
     transform: scale(1.3);
 }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    /*text-align: center;*/
+  }
+  
+  .header-video {
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header-video video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 20;
+    left: 0;
+    background: #303952;
+    z-index: 1;
+    opacity: .85;
+  }
+  
+  .header-content {
+    z-index: 2;
+  }
+  
+  .header-content h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .header-content p {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+  }
+  
+  .btn {
+    background: #c44569;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 960px) {
+    .content {
+      padding: 0 3rem 0 3rem;
+    }
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+      height: 60px;
+      width: 60px;
+  }
+
+  .carousel-caption{
+    background: #714996;
+    opacity: 0.7;
+width: 100%;
+left: 0%;
+  }
+
+  .bd-example{
+      left: 10%;
+  }
+
+  
