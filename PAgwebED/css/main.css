@@ -1,0 +1,42 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    opacity: 1;
+}
+.navbar-nav nav-item .nav-link{
+    color: white;
+}
+
+.main-header{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    min-height: 600px;
+}
+.background-overlay{
+    background: rgba(48, 51, 107,0.7);
+    min-height: 600px;
+}
+
+.card{
+    box-shadow: 2px 2px 5px #000;
+    opacity: .78;
+}
+
+.main-gamer{
+    background: url(../img/bg2.jpg);
+    background-size:  cover ;
+    min-height: 700px;
+}
+.background-overlay2{
+    background: rgba(149, 175, 192,0.5);
+    min-height: 700px;
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+.zoom:hover{
+    transform: scale(1.3);
+}
